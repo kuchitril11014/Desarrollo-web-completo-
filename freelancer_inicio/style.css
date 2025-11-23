@@ -48,13 +48,15 @@ header{
     transition: .3s ease-in;
     
 }
-.nav-link:hover{
-    background: #0171a1;
-    font-size: 20px;
-    transform: scale(.10);
-}
+
 a{
     text-decoration: none;
     color: white;
-    
+    padding: 5px;
+    &:hover{
+        background-color: #ffd000;
+        border-radius: 8px;
+        
+
+    }
 }
