@@ -1,0 +1,10 @@
+---acuerdate de siempre descargar normalize
+
+### siempre usar ese tipo de datos###
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
